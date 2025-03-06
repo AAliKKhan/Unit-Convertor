@@ -1,0 +1,17 @@
+[project]
+name = "unit-converter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AAliKKhan", email = "muhammda014@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+unit-converter = "unit_converter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
